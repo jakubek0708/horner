@@ -12,7 +12,7 @@ except ValueError:
 
 nowy_czynniki = [czynniki_wielomianu[0]]
 
-print("\n Odpowiedzi: ")
+print("\nOdpowiedzi: ")
 for i in range(1, len(czynniki_wielomianu)):
 
     wynik_czynnik = liczba_zerująca*nowy_czynniki[i-1]+czynniki_wielomianu[i]
